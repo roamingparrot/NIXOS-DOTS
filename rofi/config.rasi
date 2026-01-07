@@ -12,7 +12,6 @@ configuration {
 
 @import                          ".config/rofi/gruvbox.rasi"
 @import                          ".config/rofi/fonts.rasi"
-@import                          ".config/colours/colours.rasi"
 
 * {
       border-colour:               var(selected);
@@ -55,7 +54,7 @@ window {
       padding:                     0px;
       border:                      0px solid;
       border-radius:               0px;
-      border-color:                d_astlolfo;
+      border-color:                #703F8E;
       cursor:                      "default";
       background-color:            @background-colour;
 }
@@ -67,7 +66,7 @@ mainbox {
       padding:                     20px;
       border:                      3px solid;
       border-radius:               0px 0px 0px 0px;
-      border-color:                d_astlolfo;
+      border-color:                #703F8E;
       background-color:            transparent;
       children:                    [ "inputbar", "listview" ];
 }
@@ -79,7 +78,7 @@ inputbar {
       padding:                     0px;
       border:                      3px solid;
       border-radius:               0px;
-      border-color:                d_astlolfo;
+      border-color:                #703F8E;
       background-color:            transparent;
       text-color:                  @foreground-colour;
       children:                    [ "textbox-prompt-colon", "entry" ];
@@ -92,8 +91,8 @@ textbox-prompt-colon {
       expand:                      false;
       str:                         "Search:";
       border:                      3px solid;
-      border-color:                d_astlolfo;
-      background-color:            d_astlolfo;
+      border-color:                #703F8E;
+      background-color:            #703F8E;
       text-color:                  #D69FAF;
 }
 entry {
